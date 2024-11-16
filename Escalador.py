@@ -13,7 +13,7 @@ hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
 mask = cv2.inRange(hsv, RojoL, RojoH)  
 mask1 = cv2.inRange(hsv, AmarilloL, AmarilloH)  
-mask2 = cv2.inRange(hsv, CianL, CianH)  
+mask2 = cv2.inRange(hsv, CianL, CianH)          #hola 
 T = mask.shape
 lista = []
 lista1 =[]

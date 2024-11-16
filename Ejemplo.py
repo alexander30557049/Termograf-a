@@ -29,7 +29,7 @@ while True:
      image[height//2:, :width//2] = result      
      image[:height//2, width//2:] = result1
      image[height//2:, width//2:] = result2
-     image1 = cv2.resize(image, (0, 0), fx=0.5, fy=0.5)
+     image1 = cv2.resize(image, (0, 0), fx=0.5, fy=0.5)     #Prueba Git
      cv2.imshow('frame', image1)     
      if cv2.waitKey(30) == ord('q'):  
         break

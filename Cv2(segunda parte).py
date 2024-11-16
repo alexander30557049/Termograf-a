@@ -5,7 +5,7 @@ img = cv2.imread('logo.png', -1)
 alto, ancho, canales = img.shape      # con el .shape devuelve una tupla con los valores mostrados
 print(alto, ancho, canales)     
 
-tag = img[100:200, 100:200]           # Cortamos teniendo en cuenta las dimensiones obtenidas
+tag = img[100:200, 100:200]           # Cortamos teniendo en cuenta las dimensiones obtenidas1
 cv2.imshow('Image', tag)  
 cv2.waitKey(0)  
 cv2.destroyAllWindows()
